@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home"
+            android:icon="@drawable/nav_home"/>
+        <item
+            android:id="@+id/nav_coupons"
+            android:icon="@drawable/nav_coupon"
+            android:title="Coupons" />
+        <item
+            android:id="@+id/nav_mess_menu"
+            android:icon="@drawable/nav_menu"
+            android:title="Mess Menu" />
+        <item
+            android:id="@+id/nav_mess_rate"
+            android:icon="@drawable/nav_mess_rate"
+            android:title="Mess Rate" />
+        <item
+            android:id="@+id/nav_user_history"
+            android:icon="@drawable/nav_history"
+            android:title="History" />
+    </group>
+
+    <item android:title="Communication">
+        <menu>
+            <item
+                android:id="@+id/nav_contact"
+                android:icon="@drawable/nav_contact"
+                android:title="Contact" />
+            <item
+                android:id="@+id/nav_complaint"
+                android:icon="@drawable/nav_complaints"
+                android:title="Complaints" />
+        </menu>
+    </item><item android:title="Other">
+    <menu>
+        <item
+            android:id="@+id/nav_share"
+            android:icon="@drawable/ic_menu_share"
+            android:title="Share" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/nav_logout"
+            android:title="Logout" />
+    </menu>
+</item>
+
+
+</menu>

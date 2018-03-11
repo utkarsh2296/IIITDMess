@@ -1,0 +1,139 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="utkarshdubey.iiitd_mess.Mess_RatesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/background"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:orientation="vertical"
+            android:layout_weight="8">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:background="@color/background"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:text="Days"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:textColor="@color/text1"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:background="@color/background"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:text="Rates"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:textColor="@color/text1"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:background="@color/background"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:text="25 days"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:textColor="@color/text1"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:background="@color/background"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:text="@string/rate_25"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:textColor="@color/text1"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:background="@color/background"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:text="25 days"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:textColor="@color/text1"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:background="@color/background"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:text="@string/rate_25"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:textColor="@color/text1"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:padding="10dp"
+                android:orientation="horizontal">
+                <TextView
+                    android:background="@color/background"
+                    android:layout_width="0dp"
+                    android:layout_weight="4"
+                    android:text="25 days"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:textColor="@color/text1"
+                    android:layout_height="match_parent" />
+                <TextView
+                    android:background="@color/background"
+                    android:layout_width="0dp"
+                    android:layout_weight="3"
+                    android:text="@string/rate_25"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:textColor="@color/text1"
+                    android:layout_height="match_parent" />
+            </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/gst"
+                android:textColor="@color/text1"
+                android:textSize="15dp"
+                android:textAlignment="center"
+                android:gravity="bottom"/>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

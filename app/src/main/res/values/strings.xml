@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">IIITD-Mess</string>
+    <string name="title_activity_main">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="gst">GST applicable as per Govt. Norms.</string>
+    <string name="rate_15">₹ 1225</string>
+    <string name="rate_20">₹ 1680</string>
+    <string name="rate_25">₹ 1875</string>
+    <string name="vendordetails">
+        Vendor Details:\n
+        Name: Vendor name\n
+        Phone:+91-2222255555
+    </string>
+    <string name="contact_emailids">
+        For Any Queries email us to:\n
+        messcommittee@iiitd.ac.in \n
+        admin-messandcanteen@iiitd.ac.in
+    </string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
