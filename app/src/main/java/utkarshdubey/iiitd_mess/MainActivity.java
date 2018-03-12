@@ -2,6 +2,7 @@ package utkarshdubey.iiitd_mess;
 
 import android.app.AlertDialog;
 import android.content.DialogInterface;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -18,7 +19,7 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 public class MainActivity extends AppCompatActivity
-        implements NavigationView.OnNavigationItemSelectedListener {
+        implements ComplaintFragment.OnFragmentInteractionListener, NavigationView.OnNavigationItemSelectedListener {
 
     Fragment frag=null;
     @Override
@@ -108,7 +109,8 @@ public class MainActivity extends AppCompatActivity
             frag=new HomeFragment();
             activatefragments(frag);
         } else if (id == R.id.nav_complaint) {
-
+            ComplaintFragment complaintFragment=ComplaintFragment.newInstance("Param1","Param2");
+            activatefragments(complaintFragment);
         } else if (id == R.id.nav_logout) {
 
         } else if (id == R.id.nav_coupons) {
@@ -142,4 +144,8 @@ public class MainActivity extends AppCompatActivity
 
     }
 
+    @Override
+    public void onFragmentInteraction(Uri uri) {
+        //blank
+    }
 }
