@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <color name="colorPrimary">#368682</color>
-    <color name="colorPrimaryDark">#3FADA8</color>
+    <color name="colorPrimaryDark">#368682</color>
+    <color name="colorPrimary">#3FADA8</color>
     <color name="colorAccent">#FF4081</color>
     <color name="iiitd">#3FADA8</color>
     <color name="background">#ffff</color>
@@ -11,6 +11,7 @@
     <color name="coupon_red">#e3d73838</color>
     <color name="coupon_orange">#e2dc7825</color>
     <color name="coupon_green">#e42cac44</color>
+    <color name="button">#eb2c8985</color>
 
 </resources>
 

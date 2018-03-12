@@ -34,8 +34,7 @@ public class CouponsFragment extends Fragment {
         lunch=view.findViewById(R.id.coupons_lunch);
         snacks=view.findViewById(R.id.coupons_snacks);
         dinner=view.findViewById(R.id.coupons_dinner);
-
-
+        getActivity().setTitle(R.string.coupons);
         return view;
 
     }

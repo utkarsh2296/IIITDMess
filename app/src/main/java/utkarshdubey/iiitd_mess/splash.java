@@ -23,4 +23,4 @@ public class splash extends Activity {
         }, 2000);
     }
     }
-}
+
