@@ -27,7 +27,9 @@
     </group>
 
     <item android:title="Communication">
+
         <menu>
+            <group android:checkableBehavior="single">
             <item
                 android:id="@+id/nav_contact"
                 android:icon="@drawable/nav_contact"
@@ -36,8 +38,14 @@
                 android:id="@+id/nav_complaint"
                 android:icon="@drawable/nav_complaints"
                 android:title="Complaints" />
+                <item
+                    android:id="@+id/nav_feedback"
+                    android:icon="@drawable/nav_feedback"
+                    android:title="Feedback"/>
+            </group>
         </menu>
-    </item><item android:title="Other">
+    </item>
+    <item android:title="Other">
     <menu>
         <item
             android:id="@+id/nav_share"
@@ -48,7 +56,6 @@
             android:icon="@drawable/nav_logout"
             android:title="Logout" />
     </menu>
-</item>
-
+    </item>
 
 </menu>

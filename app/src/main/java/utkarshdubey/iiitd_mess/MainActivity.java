@@ -89,17 +89,23 @@ public class MainActivity extends AppCompatActivity
 
         }
         else if (id == R.id.nav_contact) {
+            ContactFragment contactFragment=new ContactFragment();
+            activatefragments(contactFragment);
         }
-
         else if (id == R.id.nav_mess_rate) {
+
             Mess_RatesFragment mess_ratesFragment=new Mess_RatesFragment();
-            FragmentManager manager=getSupportFragmentManager();
-//            manager.beginTransaction().replace(R.layout.fragment_mess__rates).commit();
+            activatefragments(mess_ratesFragment);
 
         }
 
         DrawerLayout drawer = findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+    private void activatefragments(Fragment frag){
+        FragmentManager manager=getSupportFragmentManager();
+        manager.beginTransaction().replace(R.id.contentFrame,frag,frag.getClass().getSimpleName()).commit();
+
     }
 }

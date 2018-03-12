@@ -10,8 +10,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:padding="10dp"
-        android:background="@drawable/background"
-        >
+        android:background="@drawable/background">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -21,22 +20,30 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="10dp"
+                android:layout_margin="15dp"
                 android:orientation="horizontal">
                 <TextView
-                    android:background="@color/background"
+                    android:background="@drawable/rounded_corner"
                     android:layout_width="0dp"
                     android:layout_weight="4"
-                    android:text="Days"
+                    android:text="Days\t\t\t\t\t\t\t\t\t\t\t\t\tRates"
                     android:textSize="20dp"
                     android:gravity="center"
                     android:textColor="@color/text1"
                     android:layout_height="match_parent" />
+                </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:layout_margin="15dp"
+                android:orientation="horizontal">
                 <TextView
-                    android:background="@color/background"
+                    android:background="@drawable/rounded_corner"
                     android:layout_width="0dp"
                     android:layout_weight="3"
-                    android:text="Rates"
+                    android:text="@string/rate_15"
                     android:textSize="20dp"
                     android:gravity="center"
                     android:textColor="@color/text1"
@@ -47,23 +54,13 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-
-                android:padding="10dp"
+                android:layout_margin="15dp"
                 android:orientation="horizontal">
                 <TextView
-                    android:background="@color/background"
-                    android:layout_width="0dp"
-                    android:layout_weight="4"
-                    android:text="25 days"
-                    android:textSize="20dp"
-                    android:gravity="center"
-                    android:textColor="@color/text1"
-                    android:layout_height="match_parent" />
-                <TextView
-                    android:background="@color/background"
+                    android:background="@drawable/rounded_corner"
                     android:layout_width="0dp"
                     android:layout_weight="3"
-                    android:text="@string/rate_25"
+                    android:text="@string/rate_20"
                     android:textSize="20dp"
                     android:gravity="center"
                     android:textColor="@color/text1"
@@ -74,45 +71,10 @@
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:padding="10dp"
+                android:layout_margin="15dp"
                 android:orientation="horizontal">
                 <TextView
-                    android:background="@color/background"
-                    android:layout_width="0dp"
-                    android:layout_weight="4"
-                    android:text="25 days"
-                    android:textSize="20dp"
-                    android:gravity="center"
-                    android:textColor="@color/text1"
-                    android:layout_height="match_parent" />
-                <TextView
-                    android:background="@color/background"
-                    android:layout_width="0dp"
-                    android:layout_weight="3"
-                    android:text="@string/rate_25"
-                    android:textSize="20dp"
-                    android:gravity="center"
-                    android:textColor="@color/text1"
-                    android:layout_height="match_parent" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:padding="10dp"
-                android:orientation="horizontal">
-                <TextView
-                    android:background="@color/background"
-                    android:layout_width="0dp"
-                    android:layout_weight="4"
-                    android:text="25 days"
-                    android:textSize="20dp"
-                    android:gravity="center"
-                    android:textColor="@color/text1"
-                    android:layout_height="match_parent" />
-                <TextView
-                    android:background="@color/background"
+                    android:background="@drawable/rounded_corner"
                     android:layout_width="0dp"
                     android:layout_weight="3"
                     android:text="@string/rate_25"
