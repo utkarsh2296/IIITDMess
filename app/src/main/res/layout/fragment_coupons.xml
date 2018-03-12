@@ -22,12 +22,20 @@
             android:background="@drawable/green_rounded_corner"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:textSize="20dp"
+            android:textColor="@color/main_text"
+            android:gravity="center"
+            android:text="Breakfast\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t22"
             android:layout_weight="1"/>
         <TextView
             android:id="@+id/coupons_lunch"
             android:layout_margin="10dp"
             android:background="@drawable/green_rounded_corner"
             android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/main_text"
+            android:gravity="center"
+            android:text="Lunch\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t20"
             android:layout_height="0dp"
             android:layout_weight="1"/>
         <TextView
@@ -36,12 +44,20 @@
             android:background="@drawable/orange_rounded_corner"
             android:layout_width="match_parent"
             android:layout_height="0dp"
+            android:textSize="20dp"
+            android:textColor="@color/main_text"
+            android:gravity="center"
+            android:text="Evenning Snacks\t\t\t\t\t\t\t\t16"
             android:layout_weight="1"/>
         <TextView
             android:id="@+id/coupons_dinner"
             android:layout_margin="10dp"
             android:background="@drawable/red_rounded_corner"
             android:layout_width="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/main_text"
+            android:gravity="center"
+            android:text="Dinner\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t12"
             android:layout_height="0dp"
             android:layout_weight="1" />
 
@@ -50,6 +66,13 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="2">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="20dp"
+            android:textColor="@color/text1"
+            android:gravity="center"
+            android:text="Coupons Expires in 18 Days"/>
     </LinearLayout>
 </LinearLayout>
 

@@ -81,6 +81,8 @@ public class MainActivity extends AppCompatActivity
         } else if (id == R.id.nav_logout) {
 
         } else if (id == R.id.nav_coupons) {
+            CouponsFragment couponsFragment=new CouponsFragment();
+            activatefragments(couponsFragment);
 
         } else if (id == R.id.nav_share) {
 

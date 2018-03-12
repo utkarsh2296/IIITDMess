@@ -9,7 +9,7 @@
     <color name="main_text">#ffff</color>
     <color name="textbckg">#f5e6e6</color>
     <color name="coupon_red">#e3d73838</color>
-    <color name="coupon_orange">#f0dc7825</color>
+    <color name="coupon_orange">#e2dc7825</color>
     <color name="coupon_green">#e42cac44</color>
 
 </resources>

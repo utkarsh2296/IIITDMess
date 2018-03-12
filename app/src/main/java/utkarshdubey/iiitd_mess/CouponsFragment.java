@@ -16,18 +16,27 @@ public class CouponsFragment extends Fragment {
 
     TextView breakfast;
     TextView lunch;
+    TextView snacks;
+    TextView dinner;
+
 
 
     public CouponsFragment() {
         // Required empty public constructor
     }
 
-
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
+        View view = inflater.inflate(R.layout.fragment_coupons, container, false);
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_coupons, container, false);
+        breakfast=view.findViewById(R.id.coupons_breakfast);
+        lunch=view.findViewById(R.id.coupons_lunch);
+        snacks=view.findViewById(R.id.coupons_snacks);
+        dinner=view.findViewById(R.id.coupons_dinner);
+
+
+        return view;
 
     }
 
